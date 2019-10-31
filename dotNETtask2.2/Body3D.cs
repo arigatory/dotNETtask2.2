@@ -16,9 +16,7 @@ namespace dotNETtask2._2
 
         public string PetName { get; set; }
 
-        public virtual void Draw()
-        {
-            Console.WriteLine("Body draw()");
-        }
+        public abstract void Draw();
+        public abstract double SurfaceArea();
     }
 }

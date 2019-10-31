@@ -8,5 +8,20 @@ namespace dotNETtask2._2
 {
     class Sphere : Body3D
     {
+        private double Radius { get; set; }
+
+        public Sphere(double radius=1)
+        {
+            Radius = radius;
+        }
+        public override void Draw()
+        {
+            Console.WriteLine("Draw Shpere");
+        }
+
+        public override double SurfaceArea()
+        {
+            return 4 * Math.PI * Radius * Radius;
+        }
     }
 }
