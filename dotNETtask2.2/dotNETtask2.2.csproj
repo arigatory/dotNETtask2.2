@@ -43,8 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Body3D.cs" />
+    <Compile Include="Parallelepiped.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sphere.cs" />
+    <Compile Include="Tetrahedron.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
