@@ -10,7 +10,8 @@ namespace dotNETtask2._2
     {
         private double Radius { get; set; }
 
-        public Sphere(double radius=1)
+        public Sphere(double radius=1):
+            base("Сфера")
         {
             Radius = radius;
         }
@@ -22,6 +23,11 @@ namespace dotNETtask2._2
         public override double SurfaceArea()
         {
             return 4 * Math.PI * Radius * Radius;
+        }
+
+        public override double Volume()
+        {
+            return 4.0 / 3.0 * Math.PI * Radius * Radius * Radius;
         }
     }
 }

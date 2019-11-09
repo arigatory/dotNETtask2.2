@@ -18,5 +18,6 @@ namespace dotNETtask2._2
 
         public abstract void Draw();
         public abstract double SurfaceArea();
+        public abstract double Volume();
     }
 }
